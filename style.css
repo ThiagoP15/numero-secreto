@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+:root {
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(to right, #042326, #0A3A40, #0F5959, #1D7373, #107361);
+    --primary-color: #40514E;
+
+ 
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+ 
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+  
+    font-size: 2em;
+    margin-top: 20px;
+    
+}
+
+.mensagem  {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+
+
+.box {
+    border: 2px solid #52616B;
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background-color: #0A3A40;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+.btn-jogar:hover {
+    transform: rotate(360deg);
+}
+.btn-jogar:hover {
+    width: 150px;
+    cursor: pointer;
+}
+
+.btn-jogar:hover button {
+    animation: 2s display forwards;
+}
+
+@keyframes display {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
